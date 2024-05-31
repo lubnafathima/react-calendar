@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Calender from "./components/Calender";
+import Calendar from "./components/Calendar";
 import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
     <div className="app">
-      <Calender />
+      <Calendar />
       <Sidebar />
     </div>
   );

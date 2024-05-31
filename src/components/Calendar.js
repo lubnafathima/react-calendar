@@ -1,12 +1,12 @@
 import Header from "./Header";
 import Main from "./Main";
 
-const Calender = () => {
+const Calendar = () => {
   return (
-    <div className="calender">
+    <div className="calendar">
       <Header />
       <Main />
     </div>
   );
 };
-export default Calender;
+export default Calendar;
