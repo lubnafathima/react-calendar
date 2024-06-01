@@ -19,6 +19,7 @@ body {
 .calendar {
   width: 80%;
   height: 100vh;
+  padding: 1rem;
 }
 
 .header {
@@ -57,12 +58,12 @@ body {
 }
 
 .main {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+  justify-content: center; */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .react-calendar {
@@ -72,6 +73,5 @@ body {
 
 .sidebar {
   width: 20%;
-  height: 100vh;
-  border-left: 1px solid #000;
+  min-height: 100vh;
 }
